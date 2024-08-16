@@ -1,13 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sample Resume</title>
-</head>
-<body>
-    <!--Sample Resume-->
 
-    <h1>Resume</h1>
-</body>
+    <style>
+      body {
+        background-color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      div {
+        position: absolute; /* or absolute */
+        border: 1px solid;
+        width: 50%;
+        left: 20%;
+        padding: 50px;
+        margin: 50px;
+        background-color: rgb(229, 233, 241);
+      }
+
+      img {
+        position: absolute;
+        right: 10%;
+        height: 150px;
+        width: 150px;
+        top: 5%;
+        border-radius: 50%;
+      }
+
+      #rightColumn {
+        padding-left: 100px;
+      }
+
+      .skills :link {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Sample Resume-->
+    <div>
+      <!--Personal Informations and links-->
+      <header>
+        <h1>Aykut Öyekcin</h1>
+        <h2>IT Support Specialist</h2>
+        <a href="https://www.linkedin.com/in/aykutoyekcin">Linkedin</a>
+        <a href="https://github.com/aoyekcin">GitHub</a>
+
+        <img src="resumePic.jpg" alt="resumePic" />
+      </header>
+
+      <!--Work experience-->
+      <section style="padding-top: 30px">
+        <h3>RESUME SUMMARY</h3>
+        <p>
+          As an experienced IT Support Specialist, I rapidly resolve
+          technological issues with my strong technical skills and effective
+          problem-solving abilities. I possess comprehensive knowledge in
+          computer hardware, software, POS&Cash Register Systems, network
+          administration, system maintenance, and security. I am highly focused
+          on customer satisfaction. Being a good communicator, I can express
+          complex problems in an understandable manner. With my continuous
+          learning and passion for following technology trends, I provide
+          up-to-date solutions. Additionally, I am developing myself in the
+          field of front-end web development and working towards creating modern
+          solutions.
+        </p>
+
+        <h3>WORK EXPERIENCE</h3>
+        <!--Ordered list-->
+        <ol>
+          <li>Defacto Teknoloji, June 2022 - Present</li>
+          <li>Persis Perakende Bilişim, March 2020 - February 2022</li>
+        </ol>
+
+        <h4>&#10230; IT Support Specialist</h4>
+        <p><b>Defacto Teknoloji, June 2022 - Present</b></p>
+        <!--Unordered list-->
+        <ul>
+          <li>
+            Provided support for all software, hardware, end-user, and network
+            issues across more than 500 stores within the company.
+          </li>
+          <li>
+            Constructed and launched video tutorials and user guides to help
+            end-users on how to use the system with improved accuracy and
+            efficiency
+          </li>
+          <li>
+            Reduced help desk ticket volume by 25% by implementing definitive
+            solutions for recurring chronic issues.
+          </li>
+        </ul>
+
+        <h4>&#10230; Software Support Specialist</h4>
+        <p><b>Persis Perakende Bilişim, March 2020 - February 2022</b></p>
+
+        <ul>
+          <li>
+            Provided software and hardware support for POS&Cash Register system
+            applications of leading companies in the retail sector.
+          </li>
+          <li>
+            Installed over 50 cash registers and POS systems on-site at 10
+            stores.
+          </li>
+          <li>
+            Collaborated with the software team on retail software errors and
+            store requests
+          </li>
+        </ul>
+
+        <h3>SKILLS & COMPETENCIES</h3>
+        <!--Ordered list-->
+        <table>
+          <tr>
+            <td>
+              <ul class="skills">
+                <li>Advanced POS&Cash Register Systems Knowledge</li>
+                <li>Retail Industry Knowledge</li>
+                <li>Jira System</li>
+                <li>Incident handling & resolution</li>
+                <li>Ms Planner</li>
+              </ul>
+            </td>
+            <td id="rightColumn">
+              <ul class="skills">
+                <li>Strategic IT Solutions</li>
+                <li>Advanced Troubleshooting</li>
+                <li>Customer Support</li>
+                <li>Communication and Interpersonal skills</li>
+                <li>Helpdesk Management</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <!--Education Information-->
+        <h3>EDUCATION</h3>
+        <ul style="list-style-type: none; padding-left: 0%">
+          <li>Patika+ , Front End Web Development</li>
+          <li>Yeditepe University, Information System And Technologies</li>
+        </ul>
+      </section>
+      <!--Iframe and links-->
+      <footer style="padding-top: 20px; text-align: center">
+        <a href="https://www.google.com/docs/about/"
+          ><p style="color: red">
+            <b>You can easily edit your CVs on Google Docs</b>
+          </p></a
+        >
+        <p align="center">
+          <iframe
+            src="https://www.google.com/docs/about/"
+            frameborder="0"
+            width="50%"
+            height="400px"
+          ></iframe>
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
