@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Font+Awesome+5+Free&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ec407a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #263238;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #37474f;
+    color: #b0bec5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ec407a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #d81b60;
+}
+
+select {
+    appearance: none;
+    background-color: #37474f;
+    padding: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+    font-family: 'Font Awesome 5 Free', 'Poppins', sans-serif;
+}
+
+input[type="text"]::placeholder {
+    content: "\f007";
+}
+
+input[type="email"]::placeholder {
+    content: "\f0e0";
+}
+
+input[type="number"]::placeholder {
+    content: "\f073";
+}
+
+.select-label {
+    color: #b0bec5;
+    margin-bottom: 10px;
+    display: block;
+}
+
+p {
+    font-size: 14px;
+    color: #b0bec5;
+    margin-bottom: 10px;
+}
